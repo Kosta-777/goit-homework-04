@@ -505,6 +505,7 @@ body {
   .footer-container {
     display: flex;
     align-items: baseline;
+    margin-right: 120px;
   }
 }
 .footer-logo-link {
@@ -535,4 +536,18 @@ body {
 
   max-width: 264px;
   margin-top: 0;
+}
+
+.footer-social {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+  margin-bottom: 16px;
+}
+
+.footer-social-icon {
+  display: flex;
+  gap: 16px;
 }
