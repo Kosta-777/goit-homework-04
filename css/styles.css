@@ -570,6 +570,10 @@ body {
   display: flex;
 }
 
+.footer-social-name {
+  margin-bottom: 16px;
+}
+
 .footer-icons {
   display: flex;
 }
@@ -577,6 +581,29 @@ body {
 .footer-social-icon {
   gap: 16px;
   list-style-type: none;
+  display: flex;
+}
+.footer-icon-element {
+  width: 40px;
+  height: 40px;
+}
+
+.footer-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-link:hover {
+  background-color: #31d0aa;
+}
+
+.footer-link:focus {
+  background-color: #31d0aa;
 }
 
 .footer-icon {
