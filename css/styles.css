@@ -611,3 +611,7 @@ body {
   height: 24px;
   fill: #f4f4fd;
 }
+
+.footer-icon:focus {
+  background-color: #31d0aa;
+}
