@@ -386,6 +386,15 @@ body {
 .team-social {
 }
 
+.team-social-list {
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  list-style-type: none;
+}
+
 .team-icon {
   width: 16px;
   height: 16px;
