@@ -64,7 +64,7 @@ body {
 
 /* logo */
 
-.logo-link {
+/* .logo-link {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -74,6 +74,20 @@ body {
   color: var(--IRIS, #4d5ae5);
   text-decoration: none;
   margin-right: 76px;
+} */
+.logo-link {
+  color: #404bbf;
+}
+
+logo-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: #404bbf;
+  border-radius: 2px;
+  width: 100%;
 }
 
 .logo-light {
@@ -169,7 +183,7 @@ body {
   margin: 0 auto;
   max-width: 1440px;
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url(/images/people-office-1.jpg);
+    url(../images/people-office-1.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
