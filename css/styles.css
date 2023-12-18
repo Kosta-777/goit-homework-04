@@ -64,7 +64,7 @@ body {
 
 /* logo */
 
-/* .logo-link {
+.logo-link {
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -74,12 +74,12 @@ body {
   color: var(--IRIS, #4d5ae5);
   text-decoration: none;
   margin-right: 76px;
-} */
-.logo-link {
-  color: #404bbf;
 }
 
-logo-link::after {
+.link-menu.current {
+  color: #404bbf;
+}
+.link-menu.current::after {
   content: '';
   position: absolute;
   left: 0;
@@ -90,6 +90,9 @@ logo-link::after {
   width: 100%;
 }
 
+/* .logo-link {
+  color: #404bbf;
+} */
 .logo-light {
   color: #2e2f42;
 }
